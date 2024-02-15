@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "N8pbSCotTkcKITeTveflzr6ixUEc31fOE0SVgfwDdBx8OPkkff168AscA90O5pCGHyZKx8aj6jd84SvQuOVvcA==",
+  "dgSpecHash": "Odc5DM+TOtiYeVXgcR9g2oILD30u9uxFip2dr2cwRt1htYyhHEWNButBnEYBIC2ld8+WbgDP6A8DqDhTWn09Iw==",
   "success": true,
   "projectFilePath": "E:\\visualproye\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\Juan Andres\\.nuget\\packages\\bunifu.ui.winforms\\6.3.0\\bunifu.ui.winforms.6.3.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"Bunifu.UI.WinForms 6.3.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "Bunifu.UI.WinForms",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
 }

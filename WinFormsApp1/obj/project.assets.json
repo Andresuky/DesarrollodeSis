@@ -1,11 +1,47 @@
 {
   "version": 3,
   "targets": {
-    "net8.0-windows7.0": {}
+    "net8.0-windows7.0": {
+      "Bunifu.UI.WinForms/6.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/net452/Bunifu.Licensing.dll": {},
+          "lib/net452/Bunifu.UI.WinForms.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net452/Bunifu.Licensing.dll": {},
+          "lib/net452/Bunifu.UI.WinForms.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Bunifu.UI.WinForms/6.3.0": {
+      "sha512": "9VY6jFrGC6Ei3E27tvvE7FalfojrT+PWNjFPIy0k83W0Mb+YM56U8AGHvwtjJFbyIAtHhtxj3gIEJu6XA2wJcA==",
+      "type": "package",
+      "path": "bunifu.ui.winforms/6.3.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.txt",
+        "README.md",
+        "bunifu.ui.winforms.6.3.0.nupkg.sha512",
+        "bunifu.ui.winforms.nuspec",
+        "lib/net452/Bunifu.Licensing.dll",
+        "lib/net452/Bunifu.UI.WinForms.dll",
+        "lib/net452/Bunifu.UI.WinForms.xml"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0-windows7.0": []
+    "net8.0-windows7.0": [
+      "Bunifu.UI.WinForms >= 6.3.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Juan Andres\\.nuget\\packages\\": {}
@@ -45,6 +81,12 @@
     "frameworks": {
       "net8.0-windows7.0": {
         "targetAlias": "net8.0-windows",
+        "dependencies": {
+          "Bunifu.UI.WinForms": {
+            "target": "Package",
+            "version": "[6.3.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -67,5 +109,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"Bunifu.UI.WinForms 6.3.0\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\" en lugar de la plataforma de destino del proyecto \"net8.0-windows7.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "Bunifu.UI.WinForms",
+      "targetGraphs": [
+        "net8.0-windows7.0"
+      ]
+    }
+  ]
 }
