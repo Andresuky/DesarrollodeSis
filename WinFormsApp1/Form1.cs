@@ -66,5 +66,17 @@ namespace WinFormsApp1
         {
             textBox2.UseSystemPasswordChar = !textBox2.UseSystemPasswordChar;
         }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // Crear una instancia de Form2
+            Form2 form2 = new Form2();
+
+            // Mostrar Form2
+            form2.Show();
+
+            // Opcionalmente, puedes cerrar el formulario actual si deseas
+            // this.Close();
+        }
     }
 }

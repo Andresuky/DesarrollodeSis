@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Odc5DM+TOtiYeVXgcR9g2oILD30u9uxFip2dr2cwRt1htYyhHEWNButBnEYBIC2ld8+WbgDP6A8DqDhTWn09Iw==",
+  "dgSpecHash": "AoaDgV1nw7qBU6QEK2ZZ/gTor1yqR0954gvuMGqko/t08r2V6Pl1NebdLwSoAam7Xnffvp4829ikKFdY+VN3+Q==",
   "success": true,
-  "projectFilePath": "E:\\visualproye\\WinFormsApp1\\WinFormsApp1\\WinFormsApp1.csproj",
+  "projectFilePath": "C:\\Users\\DeMeDeKa\\Source\\Repos\\DesarrollodeSistemaslol\\WinFormsApp1\\WinFormsApp1.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Juan Andres\\.nuget\\packages\\bunifu.ui.winforms\\6.3.0\\bunifu.ui.winforms.6.3.0.nupkg.sha512"
+    "C:\\Users\\DeMeDeKa\\.nuget\\packages\\bunifu.ui.winforms\\6.3.0\\bunifu.ui.winforms.6.3.0.nupkg.sha512"
   ],
   "logs": [
     {

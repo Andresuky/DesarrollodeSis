@@ -139,6 +139,7 @@
             linkLabel2.TabIndex = 9;
             linkLabel2.TabStop = true;
             linkLabel2.Text = "Recuerdamela";
+            linkLabel2.LinkClicked += linkLabel2_LinkClicked;
             // 
             // textBox1
             // 
