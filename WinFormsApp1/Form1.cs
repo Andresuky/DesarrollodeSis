@@ -78,5 +78,15 @@ namespace WinFormsApp1
             // Opcionalmente, puedes cerrar el formulario actual si deseas
             // this.Close();
         }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            // Crear una instancia de Form3
+            Form3 form3 = new Form3();
+
+            // Mostrar Form3
+            form3.Show();
+
+        }
     }
 }

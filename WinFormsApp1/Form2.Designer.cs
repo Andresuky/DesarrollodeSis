@@ -62,6 +62,7 @@
             textBox2.Size = new Size(300, 34);
             textBox2.TabIndex = 19;
             textBox2.Text = "Nueva contraseña";
+            textBox2.TextChanged += textBox2_TextChanged;
             // 
             // textBox1
             // 
@@ -132,6 +133,7 @@
             textBox3.Size = new Size(300, 34);
             textBox3.TabIndex = 22;
             textBox3.Text = "Confirmar contraseña";
+            textBox3.TextChanged += textBox3_TextChanged;
             // 
             // panel3
             // 
